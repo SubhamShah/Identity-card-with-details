@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.hcontainer{
+    margin: 0 510px;
+    box-shadow: 2px 2px 2px 2px red ;
+    
+}
+.card{
+    padding: 20px;
+}
+button{
+    align-self: start;
+    height: 50px;
+    width: 90px;
+    text-align: center;
+    cursor: pointer;
+}
+#intro{
+    display: none;
+}
+#nav{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    
+}
+#nav ul{
+    background-color: teal;
+}
+#nav ul li{
+    display: inline-block;
+    padding: 20px;
+    margin:0 40px;
+    
+}
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#abt{
+    display: none;
+}
+.acontainer{
+    margin: 20px 510px;
+    box-shadow: 2px 2px 2px 2px yellow ;
+    
+}
+#ser{
+    display: none;
+}
+.scontainer{
+    margin: 20px 510px;
+    box-shadow: 2px 2px 2px 2px green ;
+    
+}
+#con{
+    display: none;
+}
+.ccontainer{
+    margin: 20px 510px;
+    box-shadow: 2px 2px 2px 2px blue ;
+    
+}
+#home,#about,#service,#contactme{
+    margin-top: 150px;
+}
